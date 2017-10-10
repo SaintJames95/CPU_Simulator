@@ -1,0 +1,7 @@
+LI R3, 256
+LI R4, 272
+SW R1, 0(R3)
+LI R9, 2
+LI R9, 2
+LW R9, 0(R4)
+HLT

@@ -1,0 +1,11 @@
+-Need to forward TO ID (Branching), EX1 (Everything Else), and MEM (For storing)
+-All instructions take 3 cycles of TIME, 
+-but the cycles indicates when the data will be available for forwarding
+-Instructions and data are stored in memory starting at address 0x0 and 0x100 respectively (Do not worry about this for now).
+-Will need to parse once over for branching addresses
+-An instruction only needs to know 
+	1) what data it will need at ID, EX1, or MEM 
+	and
+	2) what data it will produce during EX and MEM. Also what stage (EX1, 2 or 3) it's data is available.
+-Registers 0 - 31 
+

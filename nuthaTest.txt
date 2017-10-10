@@ -1,0 +1,13 @@
+	LI R0, 280
+	LI R1, 3
+	LI R3, 5
+	SW R1, 0(R0)
+
+
+
+
+
+	LW R2, 0(R0)
+LOOP: 	ADDI R2, R2, 1
+	BNE R2, R3, LOOP
+	HLT

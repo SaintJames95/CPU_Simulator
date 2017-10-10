@@ -1,0 +1,15 @@
+[LI, R0, 280]                      25   26   29   30   31   
+[LI, R1, 3]                        26   27   30   31   32   
+[LI, R3, 5]                        27   28   31   32   33   
+[SW, R1, 0(R0)]                    28   29   32   33   34   
+[LW, R2, 0(R0)]                    29   30   33   34   35   
+[LOOP:, ADDI, R2, R2, 1]           30   31   37   38   39   
+[BNE, R2, R3, LOOP]                31   37                  
+[LOOP:, ADDI, R2, R2, 1]           35   38   39   42   43   
+[BNE, R2, R3, LOOP]                39   42                  
+[HLT]                              40   43                  
+
+Total Number of Access Requests for the instruction cache: 11
+Number of instruction cache hits: 10
+Total Number of Access Requests for the data cache: 2
+Number of data cache hits:2

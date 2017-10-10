@@ -1,0 +1,15 @@
+LI R8, 256                             
+LW R0, 0(R8)               
+ADDI R1, R0, 1                         
+ADDI R1, R1, 1                            
+SW R2, 4(R8)                     
+LW R0, 8(R8)                          
+ADDI R1, R0, 1                          
+SW R2, 12(R8)                     
+LW R0, 16(R8)                          
+ADDI R1, R0, 1                          
+ADDI R1, R1, 1                
+ADDI R1, R1, 1                   
+SW R2, 20(R8)                          
+HLT                                      
+HLT                                    
